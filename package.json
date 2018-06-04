@@ -1,0 +1,14 @@
+{
+  "name": "cano-cube-passport",
+  "version": "1.0.0",
+  "description": "A cube for cano microframework for configure passport",
+  "main": "index.js",
+  "author": "Antonio Mejias",
+  "license": "MIT",
+  "dependencies": {
+    "cano-cube": "git+https://github.com/cano-koa/cano-cube.git",
+    "koa-passport": "^4.1.0",
+    "lodash": "^4.17.10",
+    "require-all": "^2.2.0"
+  }
+}
