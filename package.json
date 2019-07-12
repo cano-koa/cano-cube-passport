@@ -8,7 +8,7 @@
   "dependencies": {
     "cano-cube": "git+https://github.com/cano-koa/cano-cube.git",
     "koa-passport": "^4.1.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.14",
     "require-all": "^2.2.0"
   }
 }
