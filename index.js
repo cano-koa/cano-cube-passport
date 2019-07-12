@@ -40,7 +40,12 @@ class PassportCube extends Cube {
         return new Promise((resolve) => {
             const strategies = requireAll(this.strategiesPath);
             map(strategies, (Strategy) => {
-                passport.use(new Strategy());
+                const { options } = Strategy;
+                if (options().strategyName) {
+                    passport.use(options().strategyName, new Strategy());
+                } else {
+                    passport.use(new Strategy());
+                }
             })
             // this.bindToApp('passport',passport);
             this.cano.passport = passport;
