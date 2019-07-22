@@ -1,6 +1,6 @@
 {
   "name": "cano-cube-passport",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A cube for cano microframework for configure passport",
   "main": "index.js",
   "author": "Antonio Mejias",
